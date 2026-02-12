@@ -1,0 +1,51 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build artifacts
+dist/
+build/
+bin/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Optional: Databases (if using local SQLite or MongoDB)
+*.sqlite3
+dump.rdb
+data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# --- PostgreSQL ---
+# Connection secrets (handled via .env)
+.env
+
+# Local database data (if running Postgres inside a local folder/Docker volume)
+pgdata/
+postgres-data/
+
+# SQL Dumps and Backups
+*.sql
+*.psql
+*.dump
+*.tar
+backup/
